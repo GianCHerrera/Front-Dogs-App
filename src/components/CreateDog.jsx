@@ -168,7 +168,7 @@ export default function CreateDog() {
 
     function onSubmit(e) {
         e.preventDefault();
-        axios.post('http://localhost:3001/api/dogs/', dog)
+        axios.post('https://dogs-app-pi.herokuapp.com/api/dogs/', dog)
             .then(() => {
                 history.push('/main')
             }).catch(error => console.log(error))

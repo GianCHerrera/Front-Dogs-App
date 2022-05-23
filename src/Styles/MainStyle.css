@@ -1,0 +1,14 @@
+.contenedorDogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorMain{
+    background-color: black;
+    color: white;  
+    height: 100%;
+}
+html{
+
+    height: cover;
+}

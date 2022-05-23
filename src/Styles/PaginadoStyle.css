@@ -1,0 +1,23 @@
+.unorderedListPaginado{
+    list-style: none;
+    
+}
+.liPaginado{
+    display: inline;
+    padding-right: 1rem;
+}
+.contenedorPaginado{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.botonPaginado{
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blue(7px);
+    border: none;
+    /* border: 1px solid gray  ; */
+    cursor: pointer;
+    height: 2.2rem;
+    width: 2rem;
+    border-radius: 5px;
+}

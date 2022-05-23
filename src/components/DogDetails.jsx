@@ -9,7 +9,7 @@ export default function DogDetails() {
     let { id } = useParams()
 
     useEffect(() => {
-        axios.get('http://localhost:3001/api/dogs/' + id)
+        axios.get('https://dogs-app-pi.herokuapp.com/api/dogs/' + id)
             .then((response) => {
                 console.log(response.data);
                 setDog(response.data)
